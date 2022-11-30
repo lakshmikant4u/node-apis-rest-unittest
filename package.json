@@ -1,0 +1,29 @@
+{
+  "name": "apis-rest-unittest",
+  "version": "1.0.0",
+  "description": "This is REST API application built with NodeJS and has unit tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lakshmikant4u/node-apis-rest-unittest.git"
+  },
+  "keywords": [
+    "Unit_Test",
+    "REST",
+    "API"
+  ],
+  "author": "LAKSHMIKANT DESHPANDE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lakshmikant4u/node-apis-rest-unittest/issues"
+  },
+  "homepage": "https://github.com/lakshmikant4u/node-apis-rest-unittest#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "joi": "^17.7.0"
+  }
+}
