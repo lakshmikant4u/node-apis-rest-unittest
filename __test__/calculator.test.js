@@ -1,4 +1,4 @@
-const mathOperations = require('../src/calculator');
+const mathOperations = require('../util/calculator');
 
 describe("Calculator Tests", () => {
     test("Addition of 2 numbers", () => {
@@ -48,3 +48,4 @@ describe("Testing with Jest", () => {
             expect(a + b).toBe(expectedResult);
         });
 });
+
